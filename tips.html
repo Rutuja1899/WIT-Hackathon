@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel='stylesheet' type='text/css' media='all'>
+  <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+  <link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
+
+  <script type="text/javascript" src="js/move-top.js"></script>
+  <script type="text/javascript" src="js/easing.js"></script>
+  <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){
+          event.preventDefault();
+          $('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+        });
+      });
+    </script>
+  <title>Tips</title>
+</head>
+<body>
+  <div class="header" id="head">
+	    <div class="header-top">
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+				<div class="logo">
+				  <a href="landing.html"><img src="images/logo3.png" alt="Logo"/></a>
+				</div>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li><a href="home.html"><span data-hover="Fitness">Fitness</span></a></li>
+            <li><a href="home.html"><span data-hover="Diet">Diet</span></a></li>
+            <li><a href="home.html"><span data-hover="tips & tricks">tips & tricks</span></a></li>
+            <li><a href="home.html"><span data-hover="did you know">did you know</span></a></li>
+            <li><a href="nearMe.html"><span data-hover="Near Me">Near Me</span></a></li>
+            <li><a href="quiz.html"><span data-hover="quiz">Quiz</span></a></li>
+            <li><a href="landing.html"><span data-hover="ContactUs">Contact Us</span></a></li>
+          </ul>
+				</div>
+        <img  style="padding-right: 10px; padding-left: 30px;"height="90px" width="120px" src="images/account.png" alt="Logo"/>
+			</nav>
+			<script>
+				$("span.menu").click(function(){$(".top-menu ul").slideToggle("slow" , function(){}); });
+			</script>
+		</div>
+  </div>
+  <div class="content">
+    <div class="news-section" id="news">
+      <div class="container">
+        <div class="news-header">
+          <h3> Tips & Tricks </h3>
+        </div>
+    </div>
+  </div>
+  <div class="myPageContainer">
+    <ul class="filter">
+      <li>Fitness</li>
+      <li>Diet</li>
+      <li>Health</li>
+      <li>Mental Health</li>
+      <li>Hygiene</li>
+      <li>Tips</li>
+    </ul>
+    <!-- This is the main div where all the DropInBlog content will appear -->
+    <div id="dib-posts"></div>
+  </div>
+  <div class="footer-bottom" style="background: rgba(46,62,78,0.8); height=1em">
+        <p>Rutuja Chaudhari's WIT Hackathon Submission</p>
+  </div>
+  <!-- This is the  DropInBlog embed code, put it before the closing </body> tag -->
+<script>
+var dib_id = 'DYIJL58968B0GS7S8N6V';
+</script>
+<script src="https://dropinblog.com/js/embed.js"></script>
+</body>
+</html>
