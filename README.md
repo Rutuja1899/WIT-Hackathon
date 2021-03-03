@@ -1,22 +1,26 @@
 Problem Statement
 
-	This application should be designed as a one stop health a fitness application for women through most stages of life it includes regular fitness data, energy indicator, health monitors, guides through the health cycles that women may go through, and helps through specific health situations or illness probably also helps women through 	rhythm of medication and tests that might be required.
+This application should be designed as a one stop health a fitness application for women through most stages of life it includes regular fitness data, energy indicator, health monitors, guides through the health cycles that women may go through, and helps through specific health situations or illness probably also helps women through rhythm of medication and tests that might be required.
 
 Project Scope
-	All women over all ages.
+	
+All women over all ages.
 
 Project Assumptions
 * 	Every user has internet connectivity 
 * 	Every user has communication devices like laptop, tablet, mobile phones, etc.
 
  Project Objectives
-	To create a fully functional website as a assistance to all the women around the world including all age groups to gain information regarding health, fitness, diet, mental health, bodily processes and also keep their unique behavioural patterns and habits under check. 
+	
+To create a fully functional website as a assistance to all the women around the world including all age groups to gain information regarding health, fitness, diet, mental health, bodily processes and also keep their unique behavioural patterns and habits under check. 
 
  Technologies
-	HTML, CSS, JavaScript, JQuery, Charts.js, Google Charts, Bootstrap.
+ 
+HTML, CSS, JavaScript, JQuery, Charts.js, Google Charts, Bootstrap.
 		
 Existing Features:
-    Fitness Dashboard
+
+Fitness Dashboard
 *	Fitness assessment dashboard where BMI and Exercise Graph for 5 observation in existing database of user.
 *	Input elements for weight, height and hours of exercise per day.
    
